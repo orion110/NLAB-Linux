@@ -1,7 +1,6 @@
 # NLAB – Linux  
 [![image.jpg](https://i.postimg.cc/rp0kBNW8/image.jpg)](https://postimg.cc/1gQ266JT)
 
-Nuclear Lab HPC Environment
 
 
 **NLAB** is a modular, SQLite‑backed build and environment management system for scientific and high‑performance computing (HPC) software stacks. It was designed for **macOS (Apple M2 / x86)** but can be adapted to Linux with minimal changes.
