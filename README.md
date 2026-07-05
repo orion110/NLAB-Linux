@@ -16,7 +16,7 @@
 - Phase Management – Organize hundreds of packages into logical build phases (e.g., bootstrap, numerics, nuclear) with a simple CLI.
 - Inventory & Inspection – Query which package owns a file, check ABI consistency, list all variants, and more.
 
----
+
 
 ## Architecture Overview
 
@@ -72,17 +72,10 @@ sudo apt install -y \
 ## Installation
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/orion110/NLAB-Linux
-```
-
 
 git clone https://github.com/salemph/NLAB (macOs)
 
-```bash
-git clone https://github.com/your-org/NLAB.git /Volumes/nlab   # or wherever you want NLAB_ROOT
-cd /Volumes/nlab
-```
 
 ### 2. Set environment variables
 
