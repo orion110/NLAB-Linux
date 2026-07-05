@@ -50,7 +50,7 @@ All modules are sourced in the correct order by your `~/.zshrc` (or a custom loa
 - **Build tools**: Xcode Command Line Tools (for macOS) or equivalent on Linux.
 
 
-## NLAB on Linux (Debian/Ubuntu)
+## NLAB on Linux (Debian)
 
 ```bash
 git clone https://github.com/orion110/NLAB-Linux
@@ -83,8 +83,9 @@ python3 nlab_db.py --help
 
 ## Installation (MacOS)
 
-bash
 ### 1. Clone the repository
+
+```bash
 git clone https://github.com/salemph/NLAB (macOs)
 
 /Volumes/nlab   # or wherever you want NLAB_ROOT
