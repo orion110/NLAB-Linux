@@ -83,8 +83,14 @@ python3 nlab_db.py --help
 
 ## Installation (MacOS)
 
+bash
 ### 1. Clone the repository
 git clone https://github.com/salemph/NLAB (macOs)
+
+/Volumes/nlab   # or wherever you want NLAB_ROOT
+
+cd /Volumes/nlab
+```
 
 
 ### 2. Set environment variables (Linux/MacOs)
