@@ -66,6 +66,13 @@ sudo apt install -y \
   texlive-full
 
 
+export NLAB_ROOT="$HOME/nlab"
+mkdir -p "$NLAB_ROOT/env"
+echo "NLAB_ROOT is set to: $NLAB_ROOT"
+python3 /home/user/Downloads/NLAB-Linux-main/nlab_db.py init
+
+
+
 
 
 
