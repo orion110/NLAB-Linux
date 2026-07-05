@@ -44,7 +44,6 @@ All modules are sourced in the correct order by your `~/.zshrc` (or a custom loa
 
 ## Requirements
 
-- **macOS** (10.15+ / Apple M2 or x86_64) 
 - **Zsh**   ( For Linux and macOS )
 - **Python 3** (for the SQLite registry CLI: `nlab_db.py`)
 - **SQLite3** (built‑in on macOS)
@@ -54,9 +53,11 @@ All modules are sourced in the correct order by your `~/.zshrc` (or a custom loa
 ## NLAB on Linux (Debian/Ubuntu)
 
 ```bash
-1. Install system dependencies
+git clone https://github.com/orion110/NLAB-Linux
+
 sudo apt update
 sudo apt install -y \
+
   zsh build-essential gcc g++ gfortran \
   cmake ninja-build meson pkg-config \
   sqlite3 libsqlite3-dev python3 python3-pip \
@@ -70,21 +71,23 @@ export NLAB_ROOT="$HOME/nlab"
 mkdir -p "$NLAB_ROOT/env"
 echo "NLAB_ROOT is set to: $NLAB_ROOT"
 python3 /home/user/Downloads/NLAB-Linux-main/nlab_db.py init
+
+chmod +x nlab_db.py
+python3 nlab_db.py --help
+
 ```
 
 
 
 
 
-## Installation
+## Installation (MacOS)
 
 ### 1. Clone the repository
-git clone https://github.com/orion110/NLAB-Linux
-
 git clone https://github.com/salemph/NLAB (macOs)
 
 
-### 2. Set environment variables
+### 2. Set environment variables (Linux/MacOs)
 
 Add to your `~/.zshrc`:
 
