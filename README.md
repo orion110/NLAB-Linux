@@ -44,8 +44,8 @@ All modules are sourced in the correct order by your `~/.zshrc` (or a custom loa
 
 ## Requirements
 
-- **macOS** (10.15+ / Apple M2 or x86_64) – Linux support is possible with adjustments.
-- **Zsh** (the default shell on macOS)
+- **macOS** (10.15+ / Apple M2 or x86_64) 
+- **Zsh**   ( For Linux and mac0s )
 - **Python 3** (for the SQLite registry CLI: `nlab_db.py`)
 - **SQLite3** (built‑in on macOS)
 - **Build tools**: Xcode Command Line Tools (for macOS) or equivalent on Linux.
