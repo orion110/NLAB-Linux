@@ -78,6 +78,7 @@ chmod +x nlab_db.py
 python3 nlab_db.py --help
 
 nlab status
+nlab help
 
 ```
 
