@@ -73,8 +73,11 @@ mkdir -p "$NLAB_ROOT/env"
 echo "NLAB_ROOT is set to: $NLAB_ROOT"
 python3 /home/user/Downloads/NLAB-Linux-main/nlab_db.py init
 
+export NLAB_ENV="/home/user/Downloads/NLAB-Linux"
 chmod +x nlab_db.py
 python3 nlab_db.py --help
+
+nlab status
 
 ```
 
